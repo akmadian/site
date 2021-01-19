@@ -1,0 +1,63 @@
+@font-face {
+    font-family: mr;
+    src: url('fonts/mr.ttf')
+}
+
+@font-face {
+    font-family: mb;
+    src: url('fonts/mb.ttf')
+}
+
+body {
+    font-family: mr;
+    background: #f9f9f9;
+    color: #454545;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: dotted underline;
+}
+
+a:hover {
+    text-decoration: solid underline;
+}
+
+b {
+    font-family: mb;
+}
+
+footer {
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: .8rem;
+    filter: opacity(.4);
+}
+
+footer:hover {
+    filter: opacity(1);
+}
+
+.offset {
+    /*border-left: rgba(45, 45, 45, .2) 1px solid;*/
+    padding-left: 1rem;
+    margin-left: .5rem;
+}
+
+.row {
+    display: block;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1rem;
+}
