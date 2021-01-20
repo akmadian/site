@@ -1,0 +1,22 @@
+h2 {
+    margin-bottom: 0;
+    display: inline;
+}
+
+.not-ready {
+    display: none;
+}
+
+.date {
+    margin-top: 0;
+    font-size: .8rem;
+    filter: opacity(.5);
+}
+
+.post-a {
+    display: inline;
+}
+
+.post-body {
+    margin-left: 1rem;
+}

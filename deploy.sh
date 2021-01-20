@@ -1,1 +1,1 @@
-cp -r src/* /var/www/madian
+rsync -urvP --delete-after ~/repos/site/src/ root@madian.co:/var/www/madian/
