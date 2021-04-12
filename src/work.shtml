@@ -11,10 +11,9 @@
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/fira-code" type="text/css"/>
 </head>
 <body>
-  <!--#include file"header.shtml" -->
+  <!--#include file="header.shtml" -->
   <br/>
   <div class="flex-container">
-    <div class="flex-left">TEST</div>
     <!--#include file="sidebar.shtml" -->
     <div class="flex-right">
       <main>
@@ -27,35 +26,32 @@
 
         <h2>Work</h2>
         <h3>Creative Commons</h3>
-        <div style="margin-left: 1rem">
+        <div class="position">
           <h4>Open Source Community Coordinator (OSCC)</h4>
           <p>
             As OSCC, I did lots of code review and issue triage, managed ~150 internship applications, and drafted and launched a unique community engagement initiative that saw 30 actively engaged participants within two months of launch.
           </p>
+        </div>
+        <div class="position">
           <h4>Summer of Code Internship</h4>
+          <a href="https://docs.google.com/document/d/1MgVXGX2lKSJJevqGnECIG0_cUeumnEAwE95Y08RMga8/edit?usp=sharing">Proposal</a>
+          <a href="https://drive.google.com/file/d/1k-FNo04NC-nfQ74EHvQbKI63CRs7dEPg/view?usp=sharing">Proof of Acceptance</a>
+          <a href="https://drive.google.com/file/d/1Quilf41hoxAlhoohKjHp6G7YHeAimBOb/view?usp=sharing">Proof of Completion</a>
+          <a href="https://github.com/creativecommons/chooser">Project Repo</a>
+          <a href="https://chooser-beta.creativecommons.org/">Live Site</a> <br/> <br/>
           <p>
             I used Vue to revamp Creative Commons' license chooser, making simple copyleft licensing more accessible to millions of people.
             I continued my work on the Chooser by mentoring Olga Bulat in mid-year 2020 via Outreachy.
           </p>
-          <ul>
-              <li><a href="https://docs.google.com/document/d/1MgVXGX2lKSJJevqGnECIG0_cUeumnEAwE95Y08RMga8/edit?usp=sharing">Proposal</a></li>
-              <li><a href="https://drive.google.com/file/d/1k-FNo04NC-nfQ74EHvQbKI63CRs7dEPg/view?usp=sharing">Proof of Acceptance</a></li>
-              <li><a href="https://drive.google.com/file/d/1Quilf41hoxAlhoohKjHp6G7YHeAimBOb/view?usp=sharing">Proof of Completion</a></li>
-              <li><a href="https://github.com/creativecommons/chooser">Project Repo</a></li>
-              <li><a href="https://chooser-beta.creativecommons.org/">Live Site</a></li>
-          </ul>
         </div>
-        <p>NZXTSharp</p>
-        <ul>
-            <li><a href="https://www.nuget.org/packages/NZXTSharp">NuGet Page</a></li>
-            <li><a href="https://github.com/akmadian/NZXTSharp">GitHub Repo</a></li>
-            <li><a href="https://madian.co/NZXTSharp">Docs</a></li>
-        </ul>
-        <p>Some other links</p>
-        <ul>
-            <li><a href="/resume.pdf">My Resume</a></li>
-            <li><a href="https://www.linkedin.com/in/arimadian/">My LinkedIn</a></li>
-        </ul>
+        <h2>Projects</h2>
+        <div class="position">
+          <h3>NZXTSharp</h3>
+          <a href="https://www.nuget.org/packages/NZXTSharp">NuGet Page</a>
+          <a href="https://github.com/akmadian/NZXTSharp">GitHub Repo</a>
+          <a href="https://madian.co/NZXTSharp">Docs</a> <br/><br/>
+          <p>NZXTSharp is a C# SDK for controlling NZXT devices.</p>
+        </div>
       </main>
       <!--#include file="footer.shtml" -->
     </div>

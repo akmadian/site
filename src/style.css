@@ -11,17 +11,20 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'FiraCodeRegular'
+    /* font-family: 'FiraCodeRegular'; */
+    line-height: 2rem;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
+    column-gap: 2rem;
 }
 
 .flex-left {
     width: 25%;
     height: 100vh;
+    padding-right: 5%;
 }
 
 .flex-right {
@@ -34,11 +37,20 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 
+.position {
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+.position h2, h3, h4 {
+    margin-bottom: .3rem;
+}
+
 main {
     margin: 0 auto;
 }
 
-header a {
+#sidebar a {
     display: block;
     line-height: 1.4rem;
     margin-top: .2rem
@@ -48,6 +60,7 @@ a {
     text-decoration: solid underline;
     color: #F8F8F8;
     filter: opacity(.8);
+    font-size: .8rem;
 }
 
 a:hover {
@@ -58,6 +71,7 @@ p {
     margin-top: 0;
     line-height: 1.5rem;
     font-size: .9rem;
+    /* font-family: open-sans; */
 }
 
 b {
@@ -90,6 +104,13 @@ footer:hover {
     display: inline-block;
     vertical-align: top;
     margin-right: 1rem;
+}
+
+@font-face {
+    font-family: open-sans;
+    src: url("./OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
