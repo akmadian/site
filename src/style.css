@@ -10,6 +10,10 @@ body {
     margin-top: 5%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'FiraCodeRegular'
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -53,6 +57,7 @@ a:hover {
 p {
     margin-top: 0;
     line-height: 1.5rem;
+    font-size: .9rem;
 }
 
 b {

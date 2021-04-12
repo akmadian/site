@@ -1,0 +1,9 @@
+<div class="float-left">
+  <h2>Pages</h2>
+  <a href="/">$ cd ~</a>
+  <a href="/details">Details</a>
+  <a href="https://git.madian.co">Git Server</a>
+  <a href="/homelab">Homelab</a>
+  <a href="#">Dotfiles</a>
+  <a href="#">Resume</a>
+</div>

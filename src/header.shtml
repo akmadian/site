@@ -1,9 +1,5 @@
 <header>
-  <h2>Pages</h2>
-  <a href="/">$ cd ~</a>
-  <a href="/details">Details</a>
-  <a href="https://git.madian.co">Git Server</a>
-  <a href="/homelab">Homelab</a>
-  <a href="#">Dotfiles</a>
-  <a href="#">Resume</a>
+  <a href="https://madian.co">
+    <img src="./logo-white.svg" class="logo"/>
+  </a>
 </header>

@@ -4,4 +4,5 @@
     It's simple and transparent. I would encourage you to build your sites in the same way if possible.
   </p>
   <p>You can find this site's source code <a href="https://github.com/akmadian/site">here</a>.</p>
+  <p>Last Updated At: <!--#echo var="LAST_MODIFIED" --></p>
 </footer>
