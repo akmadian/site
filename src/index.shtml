@@ -14,9 +14,9 @@
     <img src="./logo-white.svg" class="logo"/>
     <br/>
     <div class="flex-container">
-    <header class="flex-left">
-        <!--#include file="test.html" -->
-    </header>
+    <div class="flex-left">
+        <!--#include file="header.shtml" -->
+    </div>
     <div class="flex-right">
     <main>
         <div class="offset">
@@ -28,13 +28,8 @@
             <p>My email is ari @ this domain.</p>
         </div>
     </main>
-    <footer>
-        <p>
-            This site is built with simple html and css. No minification, no 5GB node_modules. 
-            It's simple and transparent. I would encourage you to build your sites in the same way if possible.
-        </p>
-        <p>You can find this site's source code <a href="https://github.com/akmadian/site">here</a>.</p>
-    </footer>
+    <!--#include file="footer.shtml" -->
+    <p>Last Updated At: <!--echo var="LAST_MODIFIED" --></p>
     </div>
     </div>
 </body>
