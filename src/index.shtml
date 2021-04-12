@@ -11,25 +11,21 @@
   <meta name="og:description" content="Ari Madian's personal site.">
 </head>
 <body>
-    <header>
-        <a href="/">$ cd ~</a> |
-        <a href="/details">Details</a>
+    <img src="./logo-white.svg" class="logo"/>
+    <br/>
+    <div class="flex-container">
+    <header class="flex-left">
+        <!--#include file="test.html" -->
     </header>
+    <div class="flex-right">
     <main>
-        <b>I'm Ari Madian.</b>
-
         <div class="offset">
-            <p>I am an Informatics Student at the University of Washington, I plan to graduate in 2022.</p>
-            <p>I like floss software ethics, simplicity, and decentralization, and I <u>really</u> like tea.</p>
+            <p>I'm Ari Madian</p>
+            <!-- <p>I am an Informatics Student at the University of Washington, I plan to graduate in 2022.</p> -->
+            <p>I like FLOSS software ethics, simplicity, and decentralization, and I <em>really</em> like tea.</p>
             <p>I have worked with and contributed to Creative Commons since May 2019 when I started as a Google Summer of Code Student.</p>
             <p>You can find just about all of my work on <a href="https://github.com/akmadian">my GitHub</a> page.</p>
             <p>My email is ari @ this domain.</p>
-        </div>
-        <div class="offset" style="display: none;">
-            <p style="display: inline">Also on this site: </p>
-            <a href="">Git Server</a>
-            <a href="">My Resume</a>
-            <a href="">My Dotfiles</a>
         </div>
     </main>
     <footer>
@@ -39,5 +35,7 @@
         </p>
         <p>You can find this site's source code <a href="https://github.com/akmadian/site">here</a>.</p>
     </footer>
+    </div>
+    </div>
 </body>
 </html>
