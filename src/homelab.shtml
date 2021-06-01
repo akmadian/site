@@ -11,10 +11,6 @@
   <meta name="og:description" content="Ari Madian's personal site.">
 </head>
 <body>
-  <header>
-    <img src="./logo-white.svg" class="logo"/>
-  </header>
-  <br/>
   <div class="flex-container">
     <!--#include file="header.shtml" -->
     <div class="flex-right">
