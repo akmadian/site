@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Ari Madian</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="og:title" content="Ari Madian"/>
+  <meta name="og:url" content="madian.co"/>
+  <meta name="og:description" content="Ari Madian's personal site.">
+</head>
+<body>
+  <header>
+    <img src="./logo-white.svg" class="logo"/>
+  </header>
+  <br/>
+  <div class="flex-container">
+    <!--#include file="header.shtml" -->
+    <div class="flex-right">
+      <main>
+        <div class="offset">
+          <h1>Homelab</h1>
+          <h2>What is a Homelab?</h2>
+          <p>
+            A homelab is a sandbox in which one can learn and play with new or unfamiliar technologies.
+            They can be as simple as a set of VMs on an old PC or laptop, or as complex as multiple enterprise grade servers working in tandem.
+          </p>
+          <h2>Why do I have a homelab?</h2>
+          <div class="flex-container">
+            <div style="width: 60%; margin-right: none">
+              <p>I originally started putting all of this together when I decided to move away from using larger tech corporations and their practices of data mining, along with some other ethical conflicts I find with them. I moved all of my files from Google Drive to Open Media Vault and NextCloud, Google Calendar to BaiKal, Gmail to Proton Mail, etc.</p>
+              <p>The only thing I really have yet to shake is YouTube, I just find the variety and quality of content to be so much better than competing platforms like BitChute or Odysee.</p>
+              <p>It's a fantastic way for me to learn more about networking (something I've wanted to do for a long time), and to scratch my hardware tinkering itch.</p>
+              <p>Also, just because it's a lot of fun :)</p>
+            </div>
+            <div style="width: 50%; margin-right: none">
+              <img src="./img/homelab.jpg" style="width: 100%; height: auto"/>
+              <p>My Homelab</p>
+            </div>
+          </div>
+          <h2>What do I use it for?</h2>
+          <p>
+            I have most everything running in Debian VMs in ProxMox hosts. I enjoy the stability and quality of documentation for Debian.
+            I've got two main hosts that I have running constantly:
+            <ul>
+              <li> An interesting little SOC board I found on Ebay, a Norco MITX-6948, running ProxMox.
+                <ul>
+                  <li><b>PiHole</b> for ad and tracker blocking</li>
+                  <li><b>Wireguard</b> so I can access files and PiHole on my phone and laptop when away from home</li>
+                  <li><b>OPNsense</b> for routing</li>
+                  <li>2 <b>Nginx Proxy Manager</b> instances, one for LAN DNS, and one for publicly accessible services</li>
+                  <li><b>Portainer</b></li>
+                  <li><b>Grafana<b> when I want some neat stats</li>
+                  <li><b>BaiKal</b> for calendars and contacts</li>
+                </ul>
+              </li>
+              <li> A heavily modded 3u SuperMicro storage server, also running ProxMox.
+                <ul>
+                  <li><b>Open Media Vault</b> for a NAS OS</li>
+                  <li><b>NextCloud</b></li>
+                  <li><b>Jellyfin</b> for a media server</li>
+                </ul>
+              </li>
+            </ul>
+
+          </p>
+        </div>
+      </main>
+      <!--#include file="footer.shtml" -->
+    </div>
+  </div>
+</body>
+</html>

@@ -4,10 +4,12 @@ html {
 
 body {
     font-family: mlrslim, sans-serif;
-    color: #F8F8F8;
-    width: 60%;
+    /* color: #F8F8F8; */
+    color: #B4A5A5;
+    width: 80%;
     margin: 0 auto;
     margin-top: 5%;
+    font-size: .9rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,14 +71,17 @@ a:hover {
 
 p {
     margin-top: 0;
-    line-height: 1.5rem;
-    font-size: .9rem;
+    line-height: 1.4rem;
     /* font-family: open-sans; */
 }
 
 b {
     font-family: mlrslim, sans-serif;
     font-weight: bold;
+}
+
+li {
+    line-height: 1.2rem;
 }
 
 footer {
