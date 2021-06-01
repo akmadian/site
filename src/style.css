@@ -1,11 +1,12 @@
 html {
-    background: #141414;
+    background: #161c23;
 }
 
 body {
     font-family: mlrslim, sans-serif;
     /* color: #F8F8F8; */
-    color: #B4A5A5;
+    /* color: #B4A5A5; */
+    color: #c6b8ad;
     width: 80%;
     margin: 0 auto;
     margin-top: 5%;
