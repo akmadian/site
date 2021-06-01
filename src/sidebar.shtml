@@ -2,7 +2,7 @@
   <h2>Pages</h2>
   <a href="/">About Me</a>
   <a href="/work">About My Work</a>
-  <!-- <a href="/homelab">Homelab</a> -->
+  <a href="/homelab">Homelab</a>
 
   <h2>Also Here</h2>
   <!-- <a href="https://git.madian.co/akmadian/dotfiles">Dotfiles</a> -->
