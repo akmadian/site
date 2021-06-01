@@ -11,8 +11,10 @@
   <meta name="og:description" content="Ari Madian's personal site.">
 </head>
 <body>
+  <!--#include file="header.shtml" -->
+  <br>
   <div class="flex-container">
-    <!--#include file="header.shtml" -->
+    <!--#include file="sidebar.shtml" -->
     <div class="flex-right">
       <main>
         <div class="offset">
@@ -24,6 +26,7 @@
           </p>
           <h2>Why do I have a homelab?</h2>
           <div class="flex-container">
+
             <div style="width: 60%; margin-right: none">
               <p>I originally started putting all of this together when I decided to move away from using larger tech corporations and their practices of data mining, along with some other ethical conflicts I find with them. I moved all of my files from Google Drive to Open Media Vault and NextCloud, Google Calendar to BaiKal, Gmail to Proton Mail, etc.</p>
               <p>The only thing I really have yet to shake is YouTube, I just find the variety and quality of content to be so much better than competing platforms like BitChute or Odysee.</p>
@@ -59,7 +62,6 @@
                 </ul>
               </li>
             </ul>
-
           </p>
         </div>
       </main>
