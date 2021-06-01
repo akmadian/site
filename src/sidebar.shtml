@@ -1,15 +1,11 @@
 <div class="float-left" id="sidebar">
-  <h2>Pages</h2>
+  <h2>On This Site</h2>
   <a href="/">About Me</a>
   <a href="/work">About My Work</a>
   <a href="/homelab">Homelab</a>
-
-  <h2>Also Here</h2>
-  <!-- <a href="https://git.madian.co/akmadian/dotfiles">Dotfiles</a> -->
   <a href="https://madian.co/resume">Resume</a>
-  <!-- <a href="https://git.madian.co">Git Server</a> -->
 
   <h2>Links</h2>
   <a href="https://www.linkedin.com/in/arimadian/">LinkedIn</a>
-  <!-- <a href="#"></a> -->
+  <a href="https://github.com/akmadian">GitHub</a>
 </div>
