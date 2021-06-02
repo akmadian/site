@@ -11,9 +11,7 @@
   <meta name="og:description" content="Ari Madian's personal site.">
 </head>
 <body>
-  <header>
-    <img src="./logo-white.svg" class="logo"/>
-  </header>
+  <!--#include file="header.shtml" -->
   <br/>
   <div class="flex-container">
     <!--#include file="sidebar.shtml" -->
@@ -36,19 +34,14 @@
             <tr>
               <th style="width: 70%">Thing</th>
               <th style="width: 7%">Category</th>
-              <th style="width: 7%">Sources</th>
               <th style="width: 12%">Added</th>
             </tr>
             <tr>
               <th>
-                Amazon sidewalk shares wifi with neighbors, uses opt-out<a href="#1"><sup>[1]</sup></a>.
-                Some users report having to opt out multiple times.<a href="#2"><sup>[2]</sup></a>
+                Amazon sidewalk shares wifi with neighbors, uses opt-out<a href="https://duckduckgo.com/?t=ffab&q=amazon+sharing+internet&iar=news&ia=news"><sup>[1]</sup></a>.
+                Some users report having to opt out multiple times.<a href="https://www.reddit.com/r/HomeNetworking/comments/nnugs0/psa_ive_now_opted_out_of_amazon_sidewalk_three/"><sup>[2]</sup></a>
               </th>
               <th>Privacy</th>
-              <th>
-                <a id="1" href="https://duckduckgo.com/?t=ffab&q=amazon+sharing+internet&iar=news&ia=news">[1]</a>
-                <a id="2" href="https://www.reddit.com/r/HomeNetworking/comments/nnugs0/psa_ive_now_opted_out_of_amazon_sidewalk_three/">[2]</a>
-              </th>
               <th>Jun 1, 2021</th>
             </tr>
           </table>

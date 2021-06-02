@@ -11,9 +11,7 @@
   <meta name="og:description" content="Ari Madian's personal site.">
 </head>
 <body>
-  <header>
-    <img src="./logo-white.svg" class="logo"/>
-  </header>
+  <!--#include file="header.shtml" -->
   <br/>
   <div class="flex-container">
     <!--#include file="sidebar.shtml" -->
@@ -34,7 +32,6 @@
             <tr>
               <th style="width: 70%">Thing</th>
               <th style="width: 7%">Category</th>
-              <th style="width: 7%">Sources</th>
               <th style="width: 12%">Added</th>
             </tr>
           </table>
