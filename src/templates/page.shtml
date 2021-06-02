@@ -16,17 +16,11 @@
   </header>
   <br/>
   <div class="flex-container">
-    TEST
-    <!--#include file="header.shtml" -->
+    <!--#include file="sidebar.shtml" -->
     <div class="flex-right">
       <main>
         <div class="offset">
-          <p>I'm Ari Madian</p>
-            <!-- <p>I am an Informatics Student at the University of Washington, I plan to graduate in 2022.</p> -->
-            <p>I like FLOSS software ethics, simplicity, and decentralization, and I <em>really</em> like tea.</p>
-            <p>I have worked with and contributed to Creative Commons since May 2019 when I started as a Google Summer of Code Student.</p>
-            <p>You can find just about all of my work on <a href="https://github.com/akmadian">my GitHub</a> page.</p>
-            <p>My email is ari @ this domain.</p>
+          CONTENT GOES HERE
         </div>
       </main>
       <!--#include file="footer.shtml" -->
