@@ -93,7 +93,7 @@ footer {
 }
 
 footer:hover {
-    filter: opacity(1);
+    filter: opacity(.8);
 }
 
 .offset {
