@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Ari Madian</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="og:title" content="Ari Madian"/>
+  <meta name="og:url" content="madian.co"/>
+  <meta name="og:description" content="Ari Madian's personal site.">
+</head>
+<body>
+  <header>
+    <img src="./logo-white.svg" class="logo"/>
+  </header>
+  <br/>
+  <div class="flex-container">
+    <!--#include file="sidebar.shtml" -->
+    <div class="flex-right">
+      <main>
+        <div class="offset">
+          <h1>Bad Things in Software</h1>
+          <p>I use this page to catalogue bad things that have happened in software since I started paying attention. I also keep a <a href="/goodthings">page for good things</a>.</p>
+          <p>
+            Bad things may include:
+            <ul>
+              <li>Disrespect for user privacy</li>
+              <li>Disrespect for user freedom</li>
+              <li>Poor security practices</li>
+              <li>Generally unethical things</li>
+              <li>etc.</li>
+            </ul>
+          </p>
+          <table style="width: 100%">
+            <tr>
+              <th style="width: 70%">Thing</th>
+              <th style="width: 7%">Category</th>
+              <th style="width: 7%">Sources</th>
+              <th style="width: 12%">Added</th>
+            </tr>
+            <tr>
+              <th>
+                Amazon sidewalk shares wifi with neighbors, uses opt-out<a href="#1"><sup>[1]</sup></a>.
+                Some users report having to opt out multiple times.<a href="#2"><sup>[2]</sup></a>
+              </th>
+              <th>Privacy</th>
+              <th>
+                <a id="1" href="https://duckduckgo.com/?t=ffab&q=amazon+sharing+internet&iar=news&ia=news">[1]</a>
+                <a id="2" href="https://www.reddit.com/r/HomeNetworking/comments/nnugs0/psa_ive_now_opted_out_of_amazon_sidewalk_three/">[2]</a>
+              </th>
+              <th>Jun 1, 2021</th>
+            </tr>
+          </table>
+        </div>
+      </main>
+      <!--#include file="footer.shtml" -->
+    </div>
+  </div>
+</body>
+</html>

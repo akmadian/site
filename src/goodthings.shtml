@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Ari Madian</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="og:title" content="Ari Madian"/>
+  <meta name="og:url" content="madian.co"/>
+  <meta name="og:description" content="Ari Madian's personal site.">
+</head>
+<body>
+  <header>
+    <img src="./logo-white.svg" class="logo"/>
+  </header>
+  <br/>
+  <div class="flex-container">
+    <!--#include file="sidebar.shtml" -->
+    <div class="flex-right">
+      <main>
+        <div class="offset">
+          <h1>Good Things in Software</h1>
+          <p>I use this page to catalogue good things that have happened in software since I started paying attention. I also keep a <a href="/badthings">page for bad things</a>.</p>
+          <p>
+            Good things may include:
+            <ul>
+              <li>Affirming respect for user privacy</li>
+              <li>Affirming respect for user freedom</li>
+              <li>etc.</li>
+            </ul>
+          </p>
+          <table style="width: 100%">
+            <tr>
+              <th style="width: 70%">Thing</th>
+              <th style="width: 7%">Category</th>
+              <th style="width: 7%">Sources</th>
+              <th style="width: 12%">Added</th>
+            </tr>
+          </table>
+        </div>
+      </main>
+      <!--#include file="footer.shtml" -->
+    </div>
+  </div>
+</body>
+</html>

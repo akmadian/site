@@ -53,6 +53,16 @@ main {
     margin: 0 auto;
 }
 
+table, th, td {
+    border: 1px solid #c6b8ad;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
 #sidebar a {
     display: block;
     line-height: 1.4rem;
