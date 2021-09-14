@@ -1,37 +1,12 @@
-html {
-    background: #161c23;
-}
-
 body {
-    font-family: mlrslim, sans-serif;
-    /* color: #F8F8F8; */
-    /* color: #B4A5A5; */
-    color: #c6b8ad;
     width: 80%;
     margin: 0 auto;
     margin-top: 5%;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    /* font-family: 'FiraCodeRegular'; */
     line-height: 2rem;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    column-gap: 2rem;
-}
-
-.flex-left {
-    width: 25%;
-    height: 100vh;
-    padding-right: 5%;
-}
-
-.flex-right {
-    width: 75%
 }
 
 .logo {
@@ -53,27 +28,9 @@ main {
     margin: 0 auto;
 }
 
-table, th, td {
-    border: 1px solid #c6b8ad;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-}
-
-#sidebar a {
-    display: block;
-    line-height: 1.4rem;
-    margin-top: .2rem
-}
-
 a {
     text-decoration: solid underline;
-    color: #F8F8F8;
-    filter: opacity(.8);
-    font-size: .8rem;
+    font-weight: bold;
 }
 
 a:hover {
@@ -83,50 +40,17 @@ a:hover {
 p {
     margin-top: 0;
     line-height: 1.4rem;
-    /* font-family: open-sans; */
-}
-
-b {
-    font-family: mlrslim, sans-serif;
-    font-weight: bold;
-}
-
-li {
-    line-height: 1.2rem;
 }
 
 footer {
     padding: 1rem;
     margin-top: 2rem;
-    font-size: .8rem;
+    font-size: .9rem;
     filter: opacity(.4);
 }
 
 footer:hover {
     filter: opacity(.8);
-}
-
-.offset {
-    /*border-left: rgba(45, 45, 45, .2) 1px solid;*/
-    padding-left: 1rem;
-    margin-left: .5rem;
-}
-
-.row {
-    display: block;
-}
-
-.col {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 1rem;
-}
-
-@font-face {
-    font-family: open-sans;
-    src: url("./OpenSans-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {

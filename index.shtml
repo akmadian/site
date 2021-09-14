@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Ari Madian</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="og:title" content="Ari Madian"/>
+  <meta name="og:url" content="madian.co"/>
+  <meta name="og:description" content="Ari Madian's personal site.">
+  <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/fira-code" type="text/css"/> -->
+</head>
+<body>
+  <br/>
+  <div class="flex-container">
+    <div class="flex-right">
+      <main>
+        <h1 style="text-align: center;">Ari Madian's Personal Site</h1>
+
+        <h2>About Me</h2>
+          <p>I am an Informatics Student at the University of Washington, I plan to graduate in 2022.</p>
+          <p>I like Free (as in freedom) Software, privacy, and decentralization, and I like tea. I believe strongly in civil liberties, environmentalism, and anti-authroitarianism.</p>
+          <p>Any views I express on this site are my own, not those of whoever I work for/with.</p>
+          <p>Thomas Jefferson is one of my favorite historical figures because of his advocacy for civil liberties and limited government.</p>
+
+        <h2>About My Work</h2>
+        <ul>
+          <li><p>I was an SDE Intern at Amazon in mid-year 2021. I will be returning as a full time SDE after I graduate.</p></li>
+          <li><p>I have worked with and contributed to Creative Commons since May 2019 when I started as a Google Summer of Code Student.</p></li>
+          <li><p>I breifly dabbled in web development freelancing around summer 2019.</p></li>
+        </ul>
+        <p>For more details, check my resume at <a href="/resume.pdf">madian.co/resume</a>.</p>
+
+        <h2>Contact</h2>
+          <p>If you would like to contact me, you can email me at ari @ this domain.</p>
+          <p>You can send me an encrypted message by using my <a href="/akm-pubkey.txt">GPG Key</a>.</p>
+          <p>If you want an encrypted response, please send me your key with your message.</p>
+      </main>
+      <!--#include file="footer.shtml" -->
+    </div>
+  </div>
+</body>
+</html>

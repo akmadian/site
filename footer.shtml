@@ -1,0 +1,8 @@
+<footer>
+  <p>
+    This site is built with simple html and css.
+    It's free of tracking, analytics, trans fats, and other unsavory things.<br>
+    It's simple and transparent. I encourage you to build your sites in the same way if possible (and practical).
+  </p>
+  <p>Last Updated At: <!--#echo var="LAST_MODIFIED" --></p>
+</footer>
